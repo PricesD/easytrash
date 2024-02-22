@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Season>1</Season>
+  <ProgresiveMaxXP>false</ProgresiveMaxXP>
+  <BaseEXP>1000</BaseEXP>
+  <PerLevelEXP>1000</PerLevelEXP>
+  <MaxLevel>50</MaxLevel>
+  <AutoSaveInterval>1800</AutoSaveInterval>
+  <ChooseRandomMissionSets>true</ChooseRandomMissionSets>
+  <PremiumURL>https://steamcommunity.com/id/Pricesdd/</PremiumURL>
+  <IconURL>https://i.ibb.co/HVzQMwH/battlepass.png</IconURL>
+  <UI_ID>19549</UI_ID>
+  <MySQL Use="true">
+    <Server>212.22.93.106</Server>
+    <Database>nfwlhxpr_45079</Database>
+    <Username>nfwlhxpr</Username>
+    <Password>Minaev44</Password>
+    <Port>3306</Port>
+    <Table>battlepass</Table>
+  </MySQL>
+  <Daily>
+    <Missions>
+      <TimeMission >
+        <IsPremium>false</IsPremium>
+        <Exp>600</Exp>
+        <Goal>180</Goal>
+      </TimeMission >
+      <Craft itemId="1764" >
+        <IsPremium>false</IsPremium>
+        <Exp>300</Exp>
+        <Goal>2</Goal>
+      </Craft >
+      <Heal who="both" >
+        <IsPremium>false</IsPremium>
+        <Exp>600</Exp>
+        <Goal>50</Goal>
+     </Heal >
+     <Damage what="zombie" weaponId="0" special="0" >
+        <IsPremium>false</IsPremium>
+        <Exp>1000</Exp>
+        <Goal>10000</Goal>
+     </Damage>
+     <Craft itemId="1099" >
+        <IsPremium>true</IsPremium>
+        <Exp>500</Exp>
+        <Goal>2</Goal>
+      </Craft >
+      <Kill what="player" weaponId="0" special="0" >
+        <IsPremium>true</IsPremium>
+        <Exp>500</Exp>
+        <Goal>10</Goal>
+      </Kill>
+    </Missions>
+    <Missions>
+      <Damage what="all" weaponId="363" special="0">
+        <IsPremium>false</IsPremium>
+        <Exp>32</Exp>
+        <Goal>300</Goal>
+        <ShowProgress>true</ShowProgress>
+      </Damage>
+      <Flag id="0" targetValue="2424">
+        <IsPremium>false</IsPremium>
+        <Exp>200</Exp>
+        <Goal>0</Goal>
+        <ShowProgress>true</ShowProgress>
+      </Flag>
+      <Playtime>
+        <IsPremium>false</IsPremium>
+        <Exp>500</Exp>
+        <Goal>120</Goal>
+        <ShowProgress>true</ShowProgress>
+      </Playtime>
+    </Missions>
+  </Daily>
+     <Missions>
+      <TimeMission >
+        <IsPremium>false</IsPremium>
+        <Exp>600</Exp>
+        <Goal>180</Goal>
+      </TimeMission >
+      <Craft itemId="57029" >
+        <IsPremium>false</IsPremium>
+        <Exp>1000</Exp>
+        <Goal>5</Goal>
+      </Craft >
+      <Heal who="both" >
+        <IsPremium>false</IsPremium>
+        <Exp>600</Exp>
+        <Goal>50</Goal>
+     </Heal >
+     <Kill what="player" weaponId="0" special="0" >
+        <IsPremium>false</IsPremium>
+        <Exp>300</Exp>
+        <Goal>3</Goal>
+     </Kill>
+     <Craft itemId="48613" >
+        <IsPremium>true</IsPremium>
+        <Exp>500</Exp>
+        <Goal>2</Goal>
+      </Craft >
+      <Damage what="animal" weaponId="0" special="0" >
+        <IsPremium>true</IsPremium>
+        <Exp>500</Exp>
+        <Goal>500</Goal>
+      </Damage>
+    </Missions>
+  <Missions>
+      <TimeMission >
+        <IsPremium>false</IsPremium>
+        <Exp>600</Exp>
+        <Goal>180</Goal>
+      </TimeMission >
+      <Craft itemId="9600" >
+        <IsPremium>false</IsPremium>
+        <Exp>300</Exp>
+        <Goal>3</Goal>
+      </Craft >
+      <Heal who="both" >
+        <IsPremium>false</IsPremium>
+        <Exp>600</Exp>
+        <Goal>50</Goal>
+     </Heal >
+     <Damage what="all" weaponId="0" special="0" >
+        <IsPremium>false</IsPremium>
+        <Exp>1000</Exp>
+        <Goal>20000</Goal>
+     </Damage>
+     <Craft itemId="48613" >
+        <IsPremium>true</IsPremium>
+        <Exp>500</Exp>
+        <Goal>2</Goal>
+      </Craft >
+      <Damage what="animal" weaponId="0" special="0" >
+        <IsPremium>true</IsPremium>
+        <Exp>500</Exp>
+        <Goal>500</Goal>
+      </Damage>
+    </Missions>
+  <Missions>
+      <TimeMission >
+        <IsPremium>false</IsPremium>
+        <Exp>600</Exp>
+        <Goal>180</Goal>
+      </TimeMission >
+      <Craft itemId="48613" >
+        <IsPremium>false</IsPremium>
+        <Exp>600</Exp>
+        <Goal>3</Goal>
+      </Craft >
+      <Heal who="both" >
+        <IsPremium>false</IsPremium>
+        <Exp>300</Exp>
+        <Goal>50</Goal>
+     </Heal >
+     <Damage what="player" weaponId="0" special="0" >
+        <IsPremium>false</IsPremium>
+        <Exp>1000</Exp>
+        <Goal>3000</Goal>
+     </Damage>
+     <Craft itemId="7862" >
+        <IsPremium>true</IsPremium>
+        <Exp>500</Exp>
+        <Goal>10</Goal>
+      </Craft >
+      <kill what="zombie" weaponId="9000" special="0" >
+        <IsPremium>true</IsPremium>
+        <Exp>500</Exp>
+        <Goal>20</Goal>
+      </kill>
+    </Missions>
+  <Missions>
+      <TimeMission >
+        <IsPremium>false</IsPremium>
+        <Exp>600</Exp>
+        <Goal>180</Goal>
+      </TimeMission >
+      <Craft itemId="1691" >
+        <IsPremium>false</IsPremium>
+        <Exp>300</Exp>
+        <Goal>2</Goal>
+      </Craft >
+      <Heal who="self" >
+        <IsPremium>false</IsPremium>
+        <Exp>600</Exp>
+        <Goal>25</Goal>
+     </Heal >
+     <Damage what="player" weaponId="0" special="0" >
+        <IsPremium>false</IsPremium>
+        <Exp>1000</Exp>
+        <Goal>2500</Goal>
+     </Damage>
+     <Craft itemId="8613" >
+        <IsPremium>true</IsPremium>
+        <Exp>500</Exp>
+        <Goal>2</Goal>
+      </Craft >
+      <Kill what="zombie" weaponId="55525" special="1" >
+        <IsPremium>true</IsPremium>
+        <Exp>500</Exp>
+        <Goal>3</Goal>
+      </Kill>
+    </Missions>
+  <Missions>
+      <TimeMission >
+        <IsPremium>false</IsPremium>
+        <Exp>600</Exp>
+        <Goal>180</Goal>
+      </TimeMission >
+      <Craft itemId="20020" >
+        <IsPremium>false</IsPremium>
+        <Exp>1000</Exp>
+        <Goal>4</Goal>
+      </Craft >
+      <Heal who="both" >
+        <IsPremium>false</IsPremium>
+        <Exp>300</Exp>
+        <Goal>50</Goal>
+     </Heal >
+     <Kill what="animal" weaponId="0" special="0" >
+        <IsPremium>false</IsPremium>
+        <Exp>600</Exp>
+        <Goal>20</Goal>
+     </Kill>
+     <Craft itemId="1691" >
+        <IsPremium>true</IsPremium>
+        <Exp>500</Exp>
+        <Goal>3</Goal>
+      </Craft >
+      <Damage what="both" weaponId="0" special="0" >
+        <IsPremium>true</IsPremium>
+        <Exp>500</Exp>
+        <Goal>6000</Goal>
+      </Damage>
+    </Missions>
+  <Missions>
+      <TimeMission >
+        <IsPremium>false</IsPremium>
+        <Exp>600</Exp>
+        <Goal>180</Goal>
+      </TimeMission >
+      <Catch itemId="10668" rodId="0">
+        <IsPremium>false</IsPremium>
+        <Exp>500</Exp>
+        <Goal>4</Goal>
+      </Catch >
+      <Heal who="self" >
+        <IsPremium>false</IsPremium>
+        <Exp>750</Exp>
+        <Goal>40</Goal>
+     </Heal >
+     <Damage what="zombie" weaponId="1031" special="0" >
+        <IsPremium>false</IsPremium>
+        <Exp>1000</Exp>
+        <Goal>2000</Goal>
+     </Damage>
+     <Craft itemId="1101" >
+        <IsPremium>true</IsPremium>
+        <Exp>500</Exp>
+        <Goal>4</Goal>
+      </Craft >
+      <Kill what="player" weaponId="0" special="0" >
+        <IsPremium>true</IsPremium>
+        <Exp>500</Exp>
+        <Goal>5</Goal>
+      </Kill>
+    </Missions>
+  <Weekly>
+    <Missions>
+      <TimeMission >
+        <IsPremium>false</IsPremium>
+        <Exp>3000</Exp>
+        <Goal>2100</Goal>
+      </TimeMission >
+      <Craft itemId="57029" >
+        <IsPremium>false</IsPremium>
+        <Exp>2500</Exp>
+        <Goal>70</Goal>
+      </Craft >
+     <Damage what="both" weaponId="0" special="0" >
+        <IsPremium>false</IsPremium>
+        <Exp>2500</Exp>
+        <Goal>120000</Goal>
+     </Damage>
+     <Craft itemId="8613" >
+        <IsPremium>true</IsPremium>
+        <Exp>3000</Exp>
+        <Goal>15</Goal>
+      </Craft >
+      <Kill what="player" weaponId="0" special="0" >
+        <IsPremium>true</IsPremium>
+        <Exp>3000</Exp>
+        <Goal>50</Goal>
+      </Kill>
+    </Missions>
+    <Missions>
+      <TimeMission >
+        <IsPremium>false</IsPremium>
+        <Exp>3000</Exp>
+        <Goal>2100</Goal>
+      </TimeMission >
+      <Catch itemId="20194" rodId="0">
+        <IsPremium>false</IsPremium>
+        <Exp>2500</Exp>
+        <Goal>10</Goal>
+      </Catch >
+     <Damage what="zombie" weaponId="0" special="0" >
+        <IsPremium>false</IsPremium>
+        <Exp>3000</Exp>
+        <Goal>35000</Goal>
+     </Damage>
+     <Craft itemId="519" >
+        <IsPremium>true</IsPremium>
+        <Exp>3000</Exp>
+        <Goal>50</Goal>
+      </Craft >
+      <Kill what="player" weaponId="0" special="0" >
+        <IsPremium>true</IsPremium>
+        <Exp>3000</Exp>
+        <Goal>25</Goal>
+      </Kill>
+    </Missions>
+  </Weekly>
+  <Rewards>
+    <Reward level="2">
+      <Name>Maplestrike</Name>
+      <Icon>https://raw.githubusercontent.com/GazziFX/Unturned-Icons/main/Items/128/363.png</Icon>
+      <Item id="363" full="true" quality="100" amount="1" />
+    </Reward>
+    <Reward level="8">
+      <Name>10x Medkit</Name>
+      <Icon>https://raw.githubusercontent.com/GazziFX/Unturned-Icons/main/Items/128/15.png</Icon>
+      <Item id="15" full="true" quality="100" amount="10" />
+    </Reward>
+    <Reward level="14">
+      <Name>Exp + Zubek</Name>
+      <Icon>https://raw.githubusercontent.com/GazziFX/Unturned-Icons/main/Items/128/122.png</Icon>
+      <Exp amount="850" />
+      <Item id="122" full="true" quality="100" amount="1" />
+    </Reward>
+    <Reward level="20">
+      <Name>MRE</Name>
+      <Icon>https://raw.githubusercontent.com/GazziFX/Unturned-Icons/main/Items/128/81.png</Icon>
+      <Item id="81" full="true" quality="100" amount="1" />
+    </Reward>
+  </Rewards>
+  <PremiumRewards>
+    <Reward level="8">
+      <Name>Unlock Tier-3 Shop</Name>
+      <Icon>https://raw.githubusercontent.com/GazziFX/Unturned-Icons/main/Items/128/125.png</Icon>
+      <Flag id="681" value="1" />
+    </Reward>
+    <Reward level="11">
+      <Name>Useless message</Name>
+      <Icon>https://raw.githubusercontent.com/GazziFX/Unturned-Icons/main/Items/128/39.png</Icon>
+      <Execute command="/say &quot;{name} {steamid} greets y'all &quot;" asConsole="true" />
+    </Reward>
+    <Reward level="17">
+      <Name>Kit Redneck</Name>
+      <Icon>https://raw.githubusercontent.com/GazziFX/Unturned-Icons/main/Items/128/125.png</Icon>
+      <Group id="redneck" remove="false" />
+    </Reward>
+  </PremiumRewards>
+</Config>

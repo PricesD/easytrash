@@ -1,0 +1,27 @@
+Level
+Name
+Icon
+Reward Types
+    Exp
+        amount
+    Flag
+        id
+        value
+    Group (rocket permission group)
+        id
+        remove (if false it will add player to group)
+    Execute
+        command ({name} returns player's name, {steamid} returns player's steamid)
+        asConsole (if false it will execute the command as player)
+    Item
+        id
+        full
+        quality
+        amount
+    Money (uconomy)
+        amount
+    
+
+
+    
+        
