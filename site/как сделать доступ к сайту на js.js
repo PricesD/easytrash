@@ -1,5 +1,5 @@
 const script = document.createElement('script')
- script.src = 'https://cdn.jsdelivr.net/gh/kgolenko/dream-frontend@main/index-v1.1.4.js'
+ script.src = 'https://cdn.statically.io/gh/PricesD/easytrash/3b4a4a4b3be080f32c6e25a8786bc935cf14fb82/site/osnovnoisiteET.js'
 
  script.async = true
  script.onload = () => {

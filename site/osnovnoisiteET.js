@@ -500,6 +500,6 @@ if (currentUrl.startsWith("https://easy-trash.gamestores.app/") ||
     }
   
 } else {
-      alert("ERROR: You do not have access to the code of this store!");
+      alert("ACCESS DENIED: You do not have access to the code of this store!");
       location.reload();
 }
